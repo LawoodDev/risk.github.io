@@ -183,7 +183,7 @@ nav>#button>.categorie.show>li {
 
 nav>#button>.categorie.show>li>* {
     opacity: 1;
-    transition: all 1.5s;
+    transition: opacity 1.5s;
 }
 
 nav>#button>.categorie>li>a,
