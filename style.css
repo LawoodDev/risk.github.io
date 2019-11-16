@@ -161,7 +161,7 @@ nav>#button>.categorie>li {
     font-size: 0.7em;
     width: 4em;
     transition: all 2s;
-    transition: opacity 1.5s;
+
 
 }
 
@@ -174,6 +174,7 @@ nav>#button>.categorie.show {
     color: white;
     margin: 0;
     transition: all 1s;
+    display: flex;
 }
 
 nav>#button>.categorie.show>li {
@@ -181,7 +182,6 @@ nav>#button>.categorie.show>li {
     padding: 0px 10px;
     margin: 0;
     transition: all .5s;
-    transition: opacity 1.5s;
 }
 
 nav>#button>.categorie>li>a,
