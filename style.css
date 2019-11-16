@@ -1,0 +1,213 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("./ressources/font/Roboto-Light.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+}
+
+body,
+html {
+    height: 100%;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+
+    color: white;
+    font-family: myFirstFont;
+    background-position-y: bottom;
+    background-image: url("./ressources/images/bg.png");
+    background-size: auto 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#topPhone {
+    display: flex;
+    height: 10%;
+    background-color: #353b48;
+}
+
+#topPhone>a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #353b48;
+
+}
+
+#topPhone>a>p {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+#topPhone>a>p>img {
+    width: 10%;
+    height: 10%;
+    margin: 10px;
+}
+
+#topPhone>a>p {
+    letter-spacing: .400rem;
+
+}
+
+#topPhone>a>p>span {
+    letter-spacing: .000rem;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    padding: 0px 2em;
+
+}
+
+main>h1 {
+    padding: 10% 0%;
+    letter-spacing: .18rem;
+    font-size: 2em;
+}
+
+main>h2 {
+    padding-bottom: 13%;
+    letter-spacing: .15rem;
+}
+
+main>p {
+    letter-spacing: .160rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+nav>div {
+    height: 50%;
+    width: 100%;
+}
+
+nav>div>img {
+    height: 40%;
+}
+
+nav>div>h3 {
+    letter-spacing: .180rem;
+    padding-bottom: 10px;
+}
+
+
+
+nav>p {
+    height: auto;
+}
+
+nav>div {
+    width: 100%;
+    height: auto;
+}
+
+nav>#arrow>img {
+    height: 2em;
+    padding-bottom: 10px;
+}
+
+nav>#button>img {
+    height: 4em;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+nav>#button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav>#button>.categorie {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    transition: all 1s;
+}
+
+nav>#button>.categorie>li {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7em;
+    width: 4em;
+    transition: all 2s;
+}
+
+nav>#button>.categorie>li>a {
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+nav>#button>.categorie.show {
+    color: white;
+    margin: 0;
+    transition: all 1s;
+}
+
+nav>#button>.categorie.show>li {
+    display: flex;
+    padding: 0px 10px;
+    margin: 0;
+    transition: all .5s;
+}
+
+nav>#button>.categorie.show>li>* {
+    opacity: 1;
+    transition: all 1.5s;
+}
+
+nav>#button>.categorie>li>a,
+nav>#button>.categorie.show>li>a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+nav>#button>.categorie>li>a>img {
+    height: 3.5em;
+    align-self: center;
+}
+
+nav>#button>.categorie>li>a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+#button.slide {
+    flex-direction: row;
+    justify-content: center;
+}

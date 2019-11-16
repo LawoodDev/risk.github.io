@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./images.css">
+
+</head>
+
+<body onload="but()" style="">
+
+    <div id="topPhone">
+        <a href="./index.html">
+            <p>
+                clari<span>s</span><img src="./ressources/images/logo-n.png" alt="d">design</p>
+        </a>
+    </div>
+
+    <main>
+        <ul>
+            <li>
+                <img src="https://picsum.photos/seed/picsum/192/108" alt="">
+            </li>
+        </ul>
+    </main>
+    <nav>
+        <div id="button">
+            <div class="categorie">
+
+                <li><a href="./images.html"><img src="./ressources/images/menu-apropos-n.png" alt=""><span>a
+                            propos</span></a>
+                </li>
+                <li><a href="./images.html"><img src="./ressources/images/menu-logo-n.png" alt=""><span>logo</span></a>
+                </li>
+            </div>
+            <img id="buttonImg" src="./ressources/images/bouton-menu-n.png" alt="">
+            <div class="categorie">
+                <li><a href="./images.html"><img src="./ressources/images/menu-interfaces-n.png"
+                            alt=""><span>interfaces</span></a>
+                </li>
+
+                <li><a href="./images.html"><img src="./ressources/images/menu-contact-n.png"
+                            alt=""><span>contact</span></a>
+                </li>
+
+            </div>
+        </div>
+    </nav>
+    <script aft="document">
+        function but() {
+            var buttonImg = document.getElementById("buttonImg");
+            buttonImg.onclick = () => {
+                var element = document.getElementById("button");
+                element.classList.toggle("slide");
+
+
+                var element1 = document.getElementsByClassName("categorie");
+                for (var r of element1)
+                    r.classList.toggle("show");
+
+            }
+        }
+    </script>
+</body>
+
+</html>
