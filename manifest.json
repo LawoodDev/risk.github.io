@@ -2,7 +2,7 @@
     "name": "Claris Design",
     "short_name": "Claris Design",
     "lang": "fr-FR",
-    "start_url": "./index.html",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "white",
     "theme_color": "white",

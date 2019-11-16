@@ -3,7 +3,7 @@ window.onload = () => {
 
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker
-            .register('./ressources/js/sw.js');
+            .register('/sw.js');
     }
     var buttonImg = document.getElementById("buttonImg");
     buttonImg.onclick = () => {
