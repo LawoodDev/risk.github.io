@@ -1,6 +1,6 @@
 @font-face {
     font-family: myFirstFont;
-    src: url("./ressources/font/Roboto-Light.ttf");
+    src: url("/ressources/font/Roboto-Light.ttf");
 }
 
 * {
@@ -25,7 +25,7 @@ body {
     color: white;
     font-family: myFirstFont;
     background-position-y: bottom;
-    background-image: url("./ressources/images/bg.png");
+    background-image: url("/ressources/images/bg.png");
     background-size: auto 100%;
     display: flex;
     flex-direction: column;

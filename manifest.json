@@ -7,11 +7,11 @@
     "background_color": "white",
     "theme_color": "white",
     "icons": [{
-        "src": "./ressources/images/bouton-menu-n.png",
+        "src": "/ressources/images/bouton-menu-n.png",
         "sizes": "154x154",
         "type": "image/png"
     }, {
-        "src": "./ressources/images/bouton-menu-n-192.png",
+        "src": "/ressources/images/bouton-menu-n-192.png",
         "sizes": "192x192",
         "type": "image/png"
     }]
