@@ -45,7 +45,7 @@ body {
 
 }
 
-#topPhone>a>p {
+#topPhone>a>div {
     display: flex;
     padding: 0;
     margin: 0;
@@ -54,20 +54,18 @@ body {
     align-items: center;
     justify-content: center;
     align-self: center;
+    letter-spacing: .400rem;
+
 }
 
-#topPhone>a>p>img {
+#topPhone>a>div>img {
     width: 10%;
     height: 10%;
     margin: 10px;
 }
 
-#topPhone>a>p {
-    letter-spacing: .400rem;
 
-}
-
-#topPhone>a>p>span {
+#topPhone>a>div>span {
     letter-spacing: .000rem;
 
 }
@@ -184,11 +182,8 @@ nav>#button>.categorie.show>li {
     transition: all .5s;
 }
 
-nav>#button>.categorie>li>a,
 nav>#button>.categorie.show>li>a {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    opacity: 1;
 }
 
 
@@ -200,7 +195,9 @@ nav>#button>.categorie>li>a>img {
 nav>#button>.categorie>li>a {
     text-decoration: none;
     color: white;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
